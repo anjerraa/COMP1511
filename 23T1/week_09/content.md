@@ -18,19 +18,13 @@ Tips:
 
 ---
 
-<aside>
-❓ **Why is `free()` important?**
-
-</aside>
+**Why is `free()` important?**
 
 - Memory is a finite resource within your running program.
 - In very short running simple programs, failing to free memory won't have a noticeable effect.
 - However, on long running programs, failing to free memory means you will be consuming a finite resource without replenishing it. Eventually, memory will run out and your program will crash.
 
-<aside>
-ℹ️ **Example:** Google Chrome, when runs for a long period of time, can get laggy and even crashes since the program allocates a lot of memory but don’t free them correspondingly.
-
-</aside>
+**Example:** Google Chrome, when runs for a long period of time, can get laggy and even crashes since the program allocates a lot of memory but don’t free them correspondingly.
 
 **Examples of not freeing properly:** 
 
