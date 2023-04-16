@@ -146,11 +146,11 @@ head->next->next = new_node_2;
 - Note: we can only directly access the head of the linked list, so we'll have to iterate through the list to access the other nodes.
     
     
-❓ Why do we need a `current` pointer?
+**❓ Why do we need a `current` pointer?**
 
 Because we don't want to use the `head` pointer to loop through the linked list since the it should always be referencing the head of the list. If we move the `head` pointer incorrectly, we would lose the head of the list.
     
-❓ How do we move the `current` pointer to the next node in the list?
+**❓ How do we move the `current` pointer to the next node in the list?**
     
 ```c
 current = current->next;
@@ -220,7 +220,7 @@ struct node *add_node_at_tail(struct node *head, int data) {
 ```
 
 
-❓ How can we modify the above code to stop at the last node in the linked list?
+**❓ How can we modify the above code to stop at the last node in the linked list?**
 
 ```c
 struct node *curr = head;
