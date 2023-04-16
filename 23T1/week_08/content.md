@@ -30,7 +30,7 @@ What does `malloc` return and how can it be used?
 - The address of that block of memory
 - Create a suitable pointer to store the address
 
-********`malloc` `char`, `int` and `int` array:**
+**`malloc` `char`, `int` and `int` array:**
 
 ```c
 // Malloc a char
