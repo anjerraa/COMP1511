@@ -123,21 +123,19 @@ Note that function `increment_time` in this example also doesn't seem to be wo
 
 In this section we'll have a look at how we can create arrays using malloc.
 
-- What differences are there to creating an array using malloc vs no malloc?
+What differences are there to creating an array using malloc vs no malloc?
     
-    <aside>
-    ☝🏻 *Using malloc*:
-    
-    - dynamically choosing the size of our array.
-    - eventually we can decide to change the size of our array if we want to too.
-    - we can safely return a pointer towards the variable from a function.
-    
-    *Not using malloc*:
-    
-    - simpler to use.
-    - we don't need to worry about free().
-    </aside>
-    
+**Using malloc:**
+
+- dynamically choosing the size of our array.
+- eventually we can decide to change the size of our array if we want to too.
+- we can safely return a pointer towards the variable from a function.
+
+**Not using malloc:**
+
+- simpler to use.
+- we don't need to worry about free().
+
 
 ### 🔁 ****Part 5: EOF Loops****
 
