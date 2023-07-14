@@ -20,7 +20,7 @@ int main() {
     printf("Before modification:\n");
     printf("Title: %s, Author: %s, Year: %d\n", book.title, book.author, book.year);
 
-    modify_book(book);
+    modify_book(&book);
 
     printf("After modification:\n");
     printf("Title: %s, Author: %s, Year: %d\n", book.title, book.author, book.year);
