@@ -1,4 +1,4 @@
-# COMP1511
+# COMP1511 Programming Fundamentals
 
 Here, you will find the contents used in my tutorials :)
 
